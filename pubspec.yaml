@@ -10,7 +10,9 @@ dependencies:
   build:
   source_gen:
   annotations:
-    path: ../annotations/
+    git:
+      url: git@github.com:karkolia/er_annotations.git
+      ref: 1.0/master
 
 dev_dependencies:
   build_test:
